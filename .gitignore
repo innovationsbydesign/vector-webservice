@@ -1,0 +1,7 @@
+.env
+node_modules/
+*.cert
+*.log
+*.code-workspace
+.vscode
+.gogadgetgal

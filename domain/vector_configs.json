@@ -1,0 +1,21 @@
+
+  {
+  
+  "vector" : [ 
+    {  
+      "serialnumber":"abcdefg",
+      "certlocation":"~/.anki/myvector1.cert",
+      "ipaddress":"10.10.10.1",
+      "name":"Vector-ABCD1",
+      "deviceguid" : "abcderghijksl=="
+    },
+    {  
+        "serialnumber":"009012cf",
+        "certlocation":"~/.anki/myvector2.cert",
+        "ipaddress":"10.10.10.2",
+        "name":"Vector-EFGH2",
+        "deviceguid" : "jklmnopquestQ=="
+      }
+  ]
+}
+  
