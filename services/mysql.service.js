@@ -4,7 +4,7 @@ require('dotenv').config();
 module.exports = {
   
   
-  findByAlias : function(vectorAlias) {
+  findByAlias : async function(vectorAlias) {
 
     var con = mysql.createConnection({
       host: process.env.HOST,

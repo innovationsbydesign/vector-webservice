@@ -62,16 +62,6 @@ say : async function (req, res)  {
    let result;
    var error = null;
    
-//    [
-//       {
-//           "alias": "bobby",
-//           "serialnumber": "006037af",
-//           "certlocation": "Vector-P9H1-006037af.cert",
-//           "ipaddress": "192.168.1.5",
-//           "name": "Vector-P9H1",
-//           "deviceguid": "cVFCZLc3R/aDVIP5tk9q8Q=="
-//       }
-//   ]
  
    try {
       let response = await vectors.findByName(name).catch(e => error = e);
